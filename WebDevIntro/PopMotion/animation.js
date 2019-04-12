@@ -1,4 +1,6 @@
-const { easing, keyframes, styler } = window.popmotion;
+import popmotion from 'popmotion';
+
+const { easing, keyframes, styler } = popmotion;
 
 const divStyler = styler(document.querySelector('.box'));
 
